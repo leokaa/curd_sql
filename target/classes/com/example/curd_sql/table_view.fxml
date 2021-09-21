@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane fx:id="" prefHeight="587.0" prefWidth="1152.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.curd_sql.TableViewController">
+    <children>
+        <Label layoutX="434.0" layoutY="38.0" prefHeight="41.0" prefWidth="225.0" text="Danh sách sinh viên" textFill="#dd1e1e">
+            <font>
+                <Font size="23.0" />
+            </font>
+        </Label>
+        <TableView fx:id="tableView" layoutX="20.0" layoutY="122.0" prefHeight="337.0" prefWidth="1036.0">
+            <columns>
+                <TableColumn fx:id="STTColumn" prefWidth="75.0" text="STT" />
+                <TableColumn fx:id="MSSVColumn" prefWidth="95.0" style="-fx-alignment: CENTER;" text="MSSV" />
+                <TableColumn fx:id="HoTenColumn" prefWidth="100.0" text="Họ tên" />
+                <TableColumn fx:id="DiaChiColumn" prefWidth="92.0" text="Địa chỉ" />
+                <TableColumn fx:id="EmailColumn" prefWidth="124.0" text="Email" />
+                <TableColumn fx:id="DienThoaiColumn" prefWidth="163.0" text="Điện thoại" />
+            <TableColumn fx:id="KhoaColumn" prefWidth="172.0" text="Khoa" />
+            <TableColumn fx:id="ThucThiColumn" prefWidth="214.0" style="-fx-alignment: CENTER;" text="Thực thi" />
+            </columns>
+        </TableView>
+        <Button fx:id="BtnThem" layoutX="20.0" layoutY="79.0" mnemonicParsing="false" onAction="#sceneCreate" text="Thêm" />
+    </children>
+</AnchorPane>

@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="485.0" prefWidth="779.0" style="-fx-background-color: #944747;" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.curd_sql.CreateController">
+    <children>
+        <Label layoutX="445.0" layoutY="86.0" style="-fx-font-family: &quot;Times New Roman&quot;, Times, serif;;" text="MSSV: " textFill="#ebebde">
+            <font>
+                <Font size="26.0" />
+            </font>
+        </Label>
+        <Label layoutX="59.0" layoutY="86.0" style="-fx-font-family: &quot;Times New Roman&quot;, Times, serif;;" text="Họ và tên: " textFill="#ebebde">
+            <font>
+                <Font size="26.0" />
+            </font>
+        </Label>
+        <Label layoutX="442.0" layoutY="156.0" style="-fx-font-family: &quot;Times New Roman&quot;, Times, serif;;" text="Địa chỉ: " textFill="#ebebde">
+            <font>
+                <Font size="26.0" />
+            </font>
+        </Label>
+        <Label layoutX="58.0" layoutY="156.0" style="-fx-font-family: &quot;Times New Roman&quot;, Times, serif;;" text="Email: " textFill="#ebebde">
+            <font>
+                <Font size="26.0" />
+            </font>
+        </Label>
+        <Label layoutX="55.0" layoutY="236.0" style="-fx-font-family: &quot;Times New Roman&quot;, Times, serif;;" text="Điện thoại: " textFill="#ebebde">
+            <font>
+                <Font size="26.0" />
+            </font>
+        </Label>
+        <Label layoutX="57.0" layoutY="315.0" style="-fx-font-family: &quot;Times New Roman&quot;, Times, serif;;" text="Ngày sinh: " textFill="#ebebde">
+            <font>
+                <Font size="26.0" />
+            </font>
+        </Label>
+        <Label layoutX="441.0" layoutY="236.0" style="-fx-font-family: &quot;Times New Roman&quot;, Times, serif;;" text="CMND: " textFill="#ebebde">
+            <font>
+                <Font size="26.0" />
+            </font>
+        </Label>
+        <TextField fx:id="GetHoTen" layoutX="187.0" layoutY="85.0" prefHeight="31.0" prefWidth="203.0" />
+        <TextField fx:id="GetEmail" layoutX="187.0" layoutY="155.0" prefHeight="31.0" prefWidth="203.0" />
+        <TextField fx:id="GetSDT" layoutX="187.0" layoutY="235.0" prefHeight="31.0" prefWidth="203.0" />
+        <TextField fx:id="GetNgaySinh" layoutX="187.0" layoutY="314.0" prefHeight="31.0" prefWidth="203.0" />
+        <TextField fx:id="GetMSSV" layoutX="544.0" layoutY="85.0" prefHeight="31.0" prefWidth="203.0" />
+        <TextField fx:id="GetDiaChi" layoutX="544.0" layoutY="155.0" prefHeight="31.0" prefWidth="203.0" />
+        <TextField fx:id="GetCMND" layoutX="544.0" layoutY="235.0" prefHeight="31.0" prefWidth="203.0" />
+        <Label layoutX="251.0" layoutY="14.0" prefHeight="47.0" prefWidth="277.0">
+            <font>
+                <Font size="24.0" />
+            </font>
+        </Label>
+        <Label layoutX="220.0" layoutY="14.0" prefHeight="37.0" prefWidth="340.0" style="-fx-font-family: &quot;Times New Roman&quot;, Times, serif; -fx-font-size: 32;" text="Nhập thông tin sinh viên" textFill="#ebebde">
+            <font>
+                <Font name="System Bold" size="32.0" />
+            </font>
+        </Label>
+        <Button fx:id="BtnThem" layoutX="329.0" layoutY="412.0" mnemonicParsing="false" onAction="#addStudent" prefHeight="47.0" prefWidth="148.0" style="-fx-background-color: #FAEBD7;" text="Thêm sinh viên" />
+    </children>
+</AnchorPane>

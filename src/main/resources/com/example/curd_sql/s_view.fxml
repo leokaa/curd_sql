@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<?import javafx.scene.text.Font?>
+<AnchorPane prefHeight="475.0" prefWidth="776.0" style="-fx-background-color: #DEB887;" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.curd_sql.ViewController">
+    <children>
+        <Label layoutX="445.0" layoutY="86.0" style="-fx-font-family: &quot;Times New Roman&quot;, Times, serif;;" text="MSSV: " textFill="#535310">
+            <font>
+                <Font size="26.0" />
+            </font>
+        </Label>
+        <Label layoutX="59.0" layoutY="86.0" style="-fx-font-family: &quot;Times New Roman&quot;, Times, serif;;" text="Họ và tên: " textFill="#535310">
+            <font>
+                <Font size="26.0" />
+            </font>
+        </Label>
+        <Label layoutX="442.0" layoutY="156.0" style="-fx-font-family: &quot;Times New Roman&quot;, Times, serif;;" text="Địa chỉ: " textFill="#535310">
+            <font>
+                <Font size="26.0" />
+            </font>
+        </Label>
+        <Label layoutX="58.0" layoutY="156.0" style="-fx-font-family: &quot;Times New Roman&quot;, Times, serif;;" text="Email: " textFill="#535310">
+            <font>
+                <Font size="26.0" />
+            </font>
+        </Label>
+        <Label layoutX="55.0" layoutY="236.0" style="-fx-font-family: &quot;Times New Roman&quot;, Times, serif;;" text="Điện thoại: " textFill="#535310">
+            <font>
+                <Font size="26.0" />
+            </font>
+        </Label>
+        <Label layoutX="57.0" layoutY="315.0" style="-fx-font-family: &quot;Times New Roman&quot;, Times, serif;;" text="Ngày sinh: " textFill="#535310">
+            <font>
+                <Font size="26.0" />
+            </font>
+        </Label>
+        <Label layoutX="441.0" layoutY="236.0" style="-fx-font-family: &quot;Times New Roman&quot;, Times, serif;;" text="CMND: " textFill="#535310">
+            <font>
+                <Font size="26.0" />
+            </font>
+        </Label>
+        <Label fx:id="GetHoTen" layoutX="199.0" layoutY="85.0" prefHeight="31.0" prefWidth="203.0" textFill="#535310" />
+        <Label fx:id="GetEmail" layoutX="199.0" layoutY="155.0" prefHeight="31.0" prefWidth="203.0" textFill="#535310" />
+        <Label fx:id="GetSDT" layoutX="199.0" layoutY="235.0" prefHeight="31.0" prefWidth="203.0" textFill="#535310" />
+        <Label fx:id="GetNgaySinh" layoutX="199.0" layoutY="314.0" prefHeight="31.0" prefWidth="203.0" textFill="#535310" />
+        <Label fx:id="GetMSSV" layoutX="544.0" layoutY="85.0" prefHeight="31.0" prefWidth="203.0" textFill="#535310" />
+        <Label fx:id="GetDiaChi" layoutX="544.0" layoutY="155.0" prefHeight="31.0" prefWidth="203.0" textFill="#535310" />
+        <Label fx:id="GetCMND" layoutX="560.0" layoutY="235.0" prefHeight="31.0" prefWidth="203.0" textFill="#535310" />
+        <Label layoutX="251.0" layoutY="14.0" prefHeight="47.0" prefWidth="277.0">
+            <font>
+                <Font size="24.0" />
+            </font>
+        </Label>
+        <Label layoutX="220.0" layoutY="14.0" prefHeight="37.0" prefWidth="340.0" style="-fx-font-family: &quot;Times New Roman&quot;, Times, serif; -fx-font-size: 32; -fx-alignment:CENTER" text="Thông tin sinh viên" textFill="#535310">
+            <font>
+                <Font name="System Bold" size="32.0" />
+            </font>
+        </Label>
+        <Button fx:id="BtnTroVe" layoutX="300.0" layoutY="392.0" mnemonicParsing="false" onAction="#TroVe" prefHeight="47.0" prefWidth="148.0" style="-fx-background-color: #FAEBD7;" text="Trở về" />
+    </children>
+</AnchorPane>
